@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voice Task Manager</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" type="image/png" href="icon-192.png" />
+    <meta name="theme-color" content="#2563eb" />
+  </head>
+  <body>
+    <h1>Voice Task Manager</h1>
+    <button id="start-btn">🎙️ Start Listening</button>
+    <div id="mic-status">🎤 Idle</div>
+
+    <div id="command">Say: "Add...", "Delete...", "Clear all", or "Help"</div>
+    <div id="message"></div>
+    <ul id="task-list"></ul>
+
+    <label style="margin-bottom: 10px">
+      <input type="checkbox" id="dark-toggle" /> Dark Mode
+    </label>
+
+    <script src="script.js"></script>
+  </body>
+</html>
